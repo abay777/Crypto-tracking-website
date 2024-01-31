@@ -25,7 +25,7 @@ Welcome to my portfolio website! This website showcases my skills, projects, and
 
 ## Screenshots
 ![home section](./homeSection.png)
-![market section](./marketSection.png)
+![market section](./market section.png)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
