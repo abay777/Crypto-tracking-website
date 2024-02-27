@@ -1,0 +1,221 @@
+@media (min-width:1080px) {
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 4rem;
+        align-items: center;
+    }
+    
+    .left>img{
+        width: 50%;
+        height: 50%;
+        filter: drop-shadow(1px 1px 40px rgb(130, 6, 130));
+        object-fit: contain;
+        pad: 0 1rem;
+    
+    }
+
+    .right>img{
+        width: 70%;
+        height: 50%;
+        filter: drop-shadow(1px 1px 40px rgb(130, 6, 130));
+        object-fit: contain;
+        pad: 0 1rem;
+    }
+    
+    .middle{
+       
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-right: 13rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .midSub{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    
+    .Ficon{
+        width: 3rem;
+        height: 3rem;
+        color: whitesmoke;
+        filter: drop-shadow(1px 1px 10px black);
+    }
+    
+    .Ficon:hover{
+        filter: drop-shadow(2px 2px 20px blue);
+    }
+    
+    .midtext{
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: gray;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1.5rem;
+    }
+    
+    .midtext>span:hover{
+        text-decoration: underline;
+        filter: drop-shadow(1px 1px 15px whitesmoke);
+    }
+    
+}
+
+
+/* tab footer */
+
+@media(min-width:761px) and (max-width:1079px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 4rem;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    
+    .left>img{
+        width: 80%;
+        height: 80%;
+        align-self: center;
+        filter: drop-shadow(1px 1px 40px rgb(130, 6, 130));
+        object-fit: contain;
+        pad: 0 1rem;
+    
+    }
+
+    .right>img{
+        width: 100%;
+        height:70%;
+        filter: drop-shadow(1px 1px 40px rgb(130, 6, 130));
+        object-fit: contain;
+        pad: 0 1rem;
+    }
+    
+    .middle{
+       
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .midSub{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    
+    .Ficon{
+        width: 4rem;
+        height: 3.5rem;
+        color: whitesmoke;
+        filter: drop-shadow(1px 1px 10px black);
+    }
+    
+    .Ficon:hover{
+        filter: drop-shadow(2px 2px 20px blue);
+    }
+    
+    .midtext{
+        font-size: 1.9rem;
+        font-weight: 700;
+        color: gray;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1.5rem;
+    }
+    
+    .midtext>span:hover{
+        text-decoration: underline;
+        filter: drop-shadow(1px 1px 15px rgb(184, 143, 192));
+    }
+}
+
+
+
+
+
+
+/* footer mobile */
+
+@media(min-width:320px) and (max-width:760px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 4rem;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    
+    .left>img{
+        width: 80%;
+        height: 80%;
+        align-self: center;
+        filter: drop-shadow(1px 1px 40px rgb(130, 6, 130));
+        object-fit: contain;
+        pad: 0 1rem;
+    
+    }
+
+    .right>img{
+        width: 80%;
+        height: 50%;
+        filter: drop-shadow(1px 1px 40px rgb(130, 6, 130));
+        object-fit: contain;
+        pad: 0 1rem;
+    }
+    
+    .middle{
+       
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .midSub{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    
+    .Ficon{
+        width: 2rem;
+        height: 2rem;
+        color: whitesmoke;
+        filter: drop-shadow(1px 1px 10px black);
+    }
+    
+    .Ficon:hover{
+        filter: drop-shadow(2px 2px 20px blue);
+    }
+    
+    .midtext{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: gray;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1.5rem;
+    }
+    
+    .midtext>span:hover{
+        text-decoration: underline;
+        filter: drop-shadow(1px 1px 15px rgb(184, 143, 192));
+    }
+}

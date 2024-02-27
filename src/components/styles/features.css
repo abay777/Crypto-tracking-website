@@ -1,0 +1,367 @@
+/* features big */
+
+@media(min-width:1080px){
+    .featureHeads{
+        margin-top: 7rem;
+        width: 100%;
+         background-color: #000a7f;
+        background-image: linear-gradient(107deg, #ffffff 0%, #9f11af 50%, #7a1717 100%);
+        color: transparent;
+        font-size: 3rem;
+        font-weight: 900;
+        background-clip: text;
+        gap: .5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .featureHeads>img{
+        width: 2rem;
+        height: 2rem;
+        object-fit: contain;
+        filter: drop-shadow(10px 10px 20px gold);
+    }
+    
+    .featureHeads>img:last-child{
+        margin-left: 1rem;
+        width: 15rem;
+        height: 15rem;
+        object-fit: contain;
+        filter: drop-shadow(10px 10px 25px rgb(128, 6, 142));
+    }
+    
+    .featuresContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem 0rem;
+    }
+    
+    .aside{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+    }
+    
+    
+    .card{
+        background-color: rgba(25, 23, 26, 0.673);
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        border:2px solid #4b2a98 ;
+        box-shadow:1px 1px 10px #6c1a81;
+        border-radius:12px;
+        gap: .5rem;
+        padding: 2rem;
+        width: 14rem;
+        height: 8rem;
+    }
+    
+    .iconContainer{
+        background-image: linear-gradient(115deg, #090975 0%, #880080 95%, #33291f 100%);
+        width:8rem;
+        height: 3rem;
+        display: flex;
+        border: 1px solid rgb(56, 41, 104);
+        justify-content: center;
+        align-items: center;
+        border-radius:10px;
+    }
+    
+    .icon{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 0;
+       color: black;
+    }
+    
+    .textAreas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+        justify-content: start;
+        gap: .5rem;
+    }
+    
+    .textAreas>span:first-child{
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        width: 90%;
+        text-align: start;
+        color: white;
+    }
+    
+    .textAreas>span:last-child{
+        font-size: .9rem;
+        text-align: start;
+        text-decoration: wavy;
+        width: 100%;
+        color: rgb(127, 132, 136);
+    }
+    
+    .featuresContainer img{
+        width: 35%;
+        position: absolute;
+        left: 32%;
+        height: 35rem;
+        object-fit: contain;
+        filter: drop-shadow(1px 1px 20px violet);
+    }
+}
+
+/* tab feature */
+
+@media (min-width:761px) and (max-width:1079px) {
+    .featureHeads{
+        margin-top: 7rem;
+        width: 100%;
+         background-color: #000a7f;
+        background-image: linear-gradient(107deg, #ffffff 0%, #9f11af 50%, #7a1717 100%);
+        color: transparent;
+        font-size: 3rem;
+        font-weight: 900;
+        background-clip: text;
+        gap: .5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .featureHeads>img{
+        width: 2rem;
+        height: 2rem;
+        object-fit: contain;
+        filter: drop-shadow(10px 10px 20px gold);
+    }
+    
+    .featureHeads>img:last-child{
+        margin-left: 1rem;
+        width: 15rem;
+        height: 15rem;
+        object-fit: contain;
+        filter: drop-shadow(10px 10px 25px rgb(128, 6, 142));
+    }
+    
+    .featuresContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem 0rem;
+    }
+    
+    .aside{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+    }
+    
+    
+    .card{
+        background-color: rgba(25, 23, 26, 0.673);
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        border:2px solid #4b2a98 ;
+        box-shadow:1px 1px 10px #6c1a81;
+        border-radius:12px;
+        gap: .5rem;
+        padding: 2rem;
+        width: 14rem;
+        height: 8rem;
+    }
+    
+    .iconContainer{
+        background-image: linear-gradient(115deg, #090975 0%, #880080 95%, #33291f 100%);
+        width:8rem;
+        height: 3rem;
+        display: flex;
+        border: 1px solid rgb(56, 41, 104);
+        justify-content: center;
+        align-items: center;
+        border-radius:10px;
+    }
+    
+    .icon{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 0;
+       color: black;
+    }
+    
+    .textAreas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+        justify-content: start;
+        gap: .5rem;
+    }
+    
+    .textAreas>span:first-child{
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        width: 90%;
+        text-align: start;
+        color: white;
+    }
+    
+    .textAreas>span:last-child{
+        font-size: .9rem;
+        text-align: start;
+        text-decoration: wavy;
+        width: 100%;
+        color: rgb(127, 132, 136);
+    }
+    
+    .featuresContainer img{
+        width: 35%;
+        position: absolute;
+        display: none;
+        left: 32%;
+        height: 35rem;
+        object-fit: contain;
+        filter: drop-shadow(1px 1px 20px violet);
+    }
+}
+
+
+
+
+
+
+/* mobile feature */
+
+@media(min-width:320px) and (max-width:760px){
+    .featureHeads{
+        margin-top: 5rem;
+        width: 100%;
+         background-color: #000a7f;
+        background-image: linear-gradient(107deg, #ffffff 0%, #9f11af 50%, #7a1717 100%);
+        color: transparent;
+        font-size: 3rem;
+        font-weight: 900;
+        background-clip: text;
+        gap: .5rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .featureHeads>h2{
+        font-size: 3.5rem;
+    }
+    
+    .featureHeads>img{
+        width: 2rem;
+        height: 2rem;
+        display: none;
+        object-fit: contain;
+        filter: drop-shadow(10px 10px 20px gold);
+    }
+    
+    .featureHeads>img:last-child{
+        display: block;
+        width: 15rem;
+        height: 15rem;
+        object-fit: contain;
+        filter: drop-shadow(10px 10px 25px rgb(128, 6, 142));
+    }
+    
+    .featuresContainer{
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 3rem;
+    }
+    
+    .aside{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    
+    .card{
+        background-color: rgba(25, 23, 26, 0.673);
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        border:2px solid #4b2a98 ;
+        box-shadow:1px 1px 10px #6c1a81;
+        border-radius:12px;
+        gap: .5rem;
+        padding: 1.5rem;
+        width: 80%;
+        
+    }
+    
+    .iconContainer{
+        background-image: linear-gradient(115deg, #090975 0%, #880080 95%, #33291f 100%);
+        width: max-content;
+        height: max-content;
+        display: flex;
+        padding: .3rem;
+        border: 1px solid rgb(56, 41, 104);
+        justify-content: center;
+        align-items: center;
+        border-radius:10px;
+    }
+    
+    .icon{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 0;
+    }
+    
+    .textAreas{
+        display: flex;
+        flex-direction: column;
+        align-items: start;;
+        justify-content: start;
+        gap: .5rem;
+        width: 100%;
+    }
+    
+    .textAreas>span:first-child{
+        font-size: 1.7rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        width: 100%;
+        text-align: start;
+        color: white;
+    }
+    
+    .textAreas>span:last-child{
+        font-size: .9rem;
+        text-align: start;
+        text-decoration: wavy;
+        width: 100%;
+        color: rgb(127, 132, 136);
+    }
+    
+    .featuresContainer img{
+        width: 35%;
+        position: absolute;
+        display: none;
+        left: 32%;
+        height: 35rem;
+        object-fit: contain;
+        filter: drop-shadow(1px 1px 20px violet);
+    }
+}

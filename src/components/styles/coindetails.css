@@ -1,0 +1,265 @@
+
+@media (min-width:1080px) {
+    
+.coinContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+    height: 100vh;
+
+}
+
+.atag>a{
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    color: gray;
+    font-family: monospace;
+    transition: .5s es;
+}
+
+
+.coinContainer>img{
+ width: 40%;
+ height: 60%;
+ margin: 0;
+ aspect-ratio: 3/2;
+ object-fit: contain;
+ border-radius: 50%;
+ border: none;
+ mix-blend-mode:hard-light;
+ margin-top: 5rem;
+
+}
+
+.coinContainer>.coinDiscription{
+    width: 50%;
+    height: 100%;
+    padding-left:1rem ;
+    border-left: 10px solid rgb(157, 157, 157);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    font-family:monospace;
+    align-items: center;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    color: gray;
+    font-family: monospace;
+    font-weight: 700;
+}
+.bottom{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    gap: 5rem;
+    font-weight: 800;
+    color: white;
+    font-family: monospace;
+}
+
+.price::first-letter{
+    font-size: 1.5rem;
+    color: gold;
+    align-items: center;
+     
+}
+
+    
+}
+
+@media (min-width:320px ) and (max-width:767px){
+    
+.coinContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+}
+
+.coinContainer>img{
+ width: 90%;
+ height: 60%;
+ aspect-ratio: 3/2;
+ object-fit: contain;
+ border-radius: 50%;
+ border: none;
+ mix-blend-mode:hard-light;
+ margin-top: 5rem;
+
+}
+
+.coinContainer>.coinDiscription{
+    width: 100%;
+    border-top: 10px solid rgb(157, 157, 157);
+    padding-top: 2rem;
+    display: flex;
+    align-items: top;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.panel{
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-family:monospace;
+    align-items: center;
+}
+.top{
+    display: flex;
+   gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: gray;
+    font-family: monospace;
+    font-weight: 700;
+}
+.bottom{
+    margin-top: 1rem;
+    display: flex;
+    gap: 4rem;
+    font-size: .8rem;
+    justify-content: center;
+    font-weight: 800;
+    padding-bottom: 5rem;
+    color: rgb(1, 1, 1);
+    font-family: monospace;
+   
+}
+
+.price::first-letter{
+    font-size: .8rem;
+    color: gold;
+     
+}
+
+.atag>a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    color: gray;
+    font-family: monospace;
+    transition: .5s es;
+}
+
+    
+}
+
+
+
+.atag>a:hover{
+    text-decoration: dashed;
+    color: blue;
+}
+
+
+
+/* tab  */
+
+@media (min-width:768px)and (max-width:1079px) {
+
+     
+.coinContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+    height: 100vh;
+
+}
+.atag>a{
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    color: gray;
+    font-family: monospace;
+    transition: .5s es;
+}
+
+
+
+.coinContainer>img{
+ width: 40%;
+ height: 60%;
+ margin: 0;
+ aspect-ratio: 3/2;
+ object-fit: contain;
+ border-radius: 50%;
+ border: none;
+ mix-blend-mode:hard-light;
+ margin-top: 5rem;
+
+}
+
+.coinContainer>.coinDiscription{
+    width: 50%;
+    height: 100%;
+    padding-left:1rem ;
+    border-left: 10px solid rgb(157, 157, 157);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    font-family:monospace;
+    align-items: center;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    color: gray;
+    font-family: monospace;
+    font-weight: 700;
+}
+.bottom{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    gap: 5rem;
+    font-weight: 800;
+    color: white;
+    font-family: monospace;
+}
+
+.price::first-letter{
+    font-size: 1.5rem;
+    color: gold;
+    align-items: center;
+     
+}
+}

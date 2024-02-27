@@ -1,0 +1,333 @@
+
+/* table big */
+
+
+@media (min-width:1080px) {
+  .TableContainer {
+    margin:1rem 1.5rem;
+  }
+
+  .TableContainer>h3{
+    background-color: #1b1e6b;
+    width: max-content;
+    margin: 0 auto;
+    padding: .5rem .7rem;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+   td {
+    border-top: 1px solid #ddd;
+    padding:1rem;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: whitesmoke;
+  background-color: black;
+  }
+  
+  th {
+    background-image:linear-gradient( #1b1e6b 0%, #7d4597 87%, #1b2032 100%);
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding:1rem ;
+  }
+  
+  .coin-cell {
+    display: flex;
+    align-items: self-start;
+   
+  }
+  
+  .coin-image {
+    width: 20px; /* Adjust the image size as needed */
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .links{
+    text-decoration: none;
+    color: white;
+  }
+
+  .links:active{
+    text-decoration: underline;
+  }
+  
+  
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  margin-left: -10px;
+  width: 100%;
+  overflow: auto;
+  margin-top: 1.5rem;
+}
+
+.pagination>button{
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+}
+
+.pageIndicator{
+  font-size: 1.1rem;
+  font-weight: 800;
+  padding: 3px 7px;
+  color: rgba(49, 0, 247, 0.693);
+  background-color: rgb(144, 136, 136);
+  border-radius: 5px;
+}
+
+.pagination>.pageButton{
+  border-radius: 50%;
+  padding: 3px 7px;
+}
+
+}
+
+
+/* tab table */
+@media (min-width:761px) and (max-width:1079px) {
+  .TableContainer {
+    margin-top:30vw;
+  }
+
+  .TableContainer>h3{
+    background-color: #1b1e6b;
+    width: max-content;
+    margin: 0 auto;
+    padding: .5rem .7rem;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+   td {
+    border-top: 1px solid #ddd;
+    padding:1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+  background-color: black;
+  }
+  
+  th {
+    background-image:linear-gradient( #1b1e6b 0%, #7d4597 87%, #1b2032 100%);
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding:1rem ;
+  }
+  
+  .coin-cell {
+    display: flex;
+    align-items: self-start;
+   
+  }
+  
+  .coin-image {
+    width: 20px; /* Adjust the image size as needed */
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .links{
+    text-decoration: none;
+    color: white;
+  }
+
+  .links:active{
+    text-decoration: underline;
+  }
+
+  
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  margin-left: -10px;
+  width: 100%;
+  overflow: auto;
+  margin-top: 1.5rem;
+}
+
+.pagination>button{
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+}
+
+.pageIndicator{
+  font-size: 1.1rem;
+  font-weight: 800;
+  padding: 3px 7px;
+  color: rgba(49, 0, 247, 0.693);
+  background-color: rgb(144, 136, 136);
+  border-radius: 5px;
+}
+
+.pagination>.pageButton{
+  border-radius: 50%;
+  padding: 3px 7px;
+}
+
+}
+
+
+
+
+ /* table moble */
+@media (min-width:320px) and (max-width:760px){
+   .TableContainer {
+    overflow-x: auto;
+    margin-top: 50%;
+   
+   } 
+  
+
+  .TableContainer>h3{
+    background-color: #1b1e6b;
+    width: max-content;
+    margin: 0 auto;
+    padding: .5rem .7rem;
+    border-radius: 5px;
+    overflow:a;
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+  }
+  
+   td {
+   
+    padding:1rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+  background-color: rgb(5, 4, 42);
+  }
+  
+  th {
+    background-image:linear-gradient( #1b1e6b 0%, #7d4597 87%, #1b2032 100%);
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    table-layout: fixed;
+    padding:1rem ;
+    text-align: center;
+  }
+  
+  
+  .coin-cell {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .coin-image {
+    width: 20px; /* Adjust the image size as needed */
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .links{
+    text-decoration: none;
+    color: white;
+  }
+
+  .links:active{
+    text-decoration: underline;
+  }
+  
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+  margin-bottom: .5rem;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.pagination>button{
+  border: none;
+  border-radius: 5px;
+  font-size: .9rem;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+}
+
+.pageIndicator{
+  font-size: .8rem;
+  font-weight: 800;
+  padding: 3px 3px;
+  color: rgba(49, 0, 247, 0.693);
+  background-color: rgb(144, 136, 136);
+  border-radius: 5px;
+}
+
+.pagination>.pageButton{
+  border-radius: 50%;
+  padding: 3px 7px;
+}
+
+  
+}

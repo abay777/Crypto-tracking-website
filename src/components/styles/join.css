@@ -1,0 +1,348 @@
+/* join big */
+
+@media (min-width:1080px){
+    .headings{
+        margin-top: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 3rem;
+    }
+    
+    .subJoin{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .subJoin>span:first-child{
+        font-size: 5rem;
+        font-weight: 900;
+        text-transform: capitalize;
+        color: white;
+        filter: drop-shadow(1px 1px 20px black);
+        letter-spacing: 1px;
+    }
+    
+    .subJoin .last{
+        letter-spacing: 1px;
+        font-size: 5.3rem;
+        font-weight: 900;
+        color: transparent;
+        background-clip: text;
+        background-color: #0314ab;
+       background-image: linear-gradient(102deg, #0314ab 0%, #d10de0 96%);
+       filter: drop-shadow(1px 1px 15px rgb(188, 120, 174));
+    
+    }
+    
+    .crpcoin{
+        position: absolute;
+        top: 5%;
+        left: 31%;
+        width: 4.5rem;
+        height: 4.5rem;
+        animation: crpcoin1 2s infinite ease-in-out alternate;
+    }
+    
+    .crpcoin2{
+        position: absolute;
+        width: 4.5rem;
+        height: 4.5rem;
+        top: 5%;
+        right: 31%;
+        animation: crpcoin2 2s infinite  ease-in-out alternate ;
+    }
+    @keyframes crpcoin1{
+        0%{
+            transform: translateX(-3rem) rotate(180deg);
+            
+        }
+    
+        100%{
+            transform: translateX(0) rotate(360deg);
+    
+        }
+    
+    }
+    
+    @keyframes crpcoin2{
+        0%{
+            transform: translateX(3rem) rotate(180deg);
+            
+        }
+    
+        100%{
+            transform: translateX(0) rotate(360deg);
+    
+        }
+    
+    }
+    
+    .headings>span{
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: gray;
+    }
+    
+    .headings>button>a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .headings>button{
+        margin-top: 1rem;
+        padding: .7rem 2rem;
+        background-color: #0314ab;
+        border: none;
+        border-radius: 7px;
+        font-size: 1.2rem;
+        font-weight: 800;
+        transition: .4s;
+    }
+    
+    .headings>button:hover{
+        background-color: #090d38;
+        box-shadow: 1px 1px 20px whitesmoke;
+    }
+}
+
+
+
+/* tab join */
+
+ @media (min-width:761px) and (max-width:1079px){
+    .headings{
+        margin-top: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 3rem;
+    }
+    
+    .subJoin{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .subJoin>span:first-child{
+        font-size: 5rem;
+        font-weight: 900;
+        text-transform: capitalize;
+        color: white;
+        filter: drop-shadow(1px 1px 20px black);
+        letter-spacing: 1px;
+    }
+    
+    .subJoin .last{
+        letter-spacing: 1px;
+        font-size: 5.3rem;
+        font-weight: 900;
+        color: transparent;
+        background-clip: text;
+        background-color: #0314ab;
+       background-image: linear-gradient(102deg, #0314ab 0%, #d10de0 96%);
+       filter: drop-shadow(1px 1px 15px rgb(188, 120, 174));
+    
+    }
+    
+    .crpcoin{
+        position: absolute;
+        top: 5%;
+        left: 21%;
+        width: 4.5rem;
+        height: 4.5rem;
+        animation: crpcoin1 2s infinite ease-in-out alternate;
+    }
+    
+    .crpcoin2{
+        position: absolute;
+        width: 4.5rem;
+        height: 4.5rem;
+        top: 5%;
+        right: 21%;
+        animation: crpcoin2 2s infinite  ease-in-out alternate ;
+    }
+    @keyframes crpcoin1{
+        0%{
+            transform: translateX(-3rem) rotate(180deg);
+            
+        }
+    
+        100%{
+            transform: translateX(0) rotate(360deg);
+    
+        }
+    
+    }
+    
+    @keyframes crpcoin2{
+        0%{
+            transform: translateX(3rem) rotate(180deg);
+            
+        }
+    
+        100%{
+            transform: translateX(0) rotate(360deg);
+    
+        }
+    
+    }
+    
+    .headings>span{
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        font-weight: 400;
+        width: 90%;
+        text-align: center;
+        color: gray;
+    }
+    
+    .headings>button>a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .headings>button{
+        margin-top: 1rem;
+        padding: .7rem 2rem;
+        background-color: #0314ab;
+        border: none;
+        border-radius: 7px;
+        font-size: 1.2rem;
+        font-weight: 800;
+        transition: .4s;
+    }
+    
+    .headings>button:hover{
+        background-color: #090d38;
+        box-shadow: 1px 1px 20px whitesmoke;
+    }
+ }
+
+
+
+
+/* join mobile */
+@media(min-width:320px) and (max-width:760px){
+    .headings{
+        margin-top: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 3rem;
+    }
+    
+    .subJoin{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .subJoin>span:first-child{
+        font-size: 18vw;
+        font-weight: 900;
+        text-transform: capitalize;
+        color: white;
+        filter: drop-shadow(1px 1px 20px black);
+        letter-spacing: 1px;
+    }
+    
+    .subJoin .last{
+        letter-spacing: 1px;
+        font-size: 18vw;
+        font-weight: 900;
+        color: transparent;
+        background-clip: text;
+        background-color: #0314ab;
+       background-image: linear-gradient(102deg, #0314ab 0%, #d10de0 96%);
+       filter: drop-shadow(1px 1px 15px rgb(188, 120, 174));
+    
+    }
+    
+    .crpcoin{
+        position: absolute;
+        left: 16%;
+        top:  18.5%;
+        width: 4.5rem;
+        height: 4.5rem;
+        animation: crpcoin1 2s infinite ease-in-out alternate;
+    }
+    
+    .crpcoin2{
+        position: absolute;
+        width: 4.5rem;
+        height: 4.5rem;
+        top: 5%;
+        right: 31%;
+        animation: crpcoin2 2s infinite  ease-in-out alternate ;
+    }
+    @keyframes crpcoin1{
+        0%{
+            transform: translateX(-3rem) rotate(180deg);
+            
+        }
+    
+        100%{
+            transform: translateX(0) rotate(360deg);
+    
+        }
+    
+    }
+    
+    @keyframes crpcoin2{
+        0%{
+            transform: translateX(3rem) rotate(180deg);
+            
+        }
+    
+        100%{
+            transform: translateX(0) rotate(360deg);
+    
+        }
+    
+    }
+    
+    .headings>span{
+        margin-top: 3rem;
+        font-size: 10.5vw;
+        text-align: center;
+        font-weight: 400;
+        color: gray;
+    }
+    
+    .headings>button>a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .headings>button{
+        margin-top: 1rem;
+        padding: .7rem 2rem;
+        background-color: #0314ab;
+        border: none;
+        border-radius: 7px;
+        font-size: 1.2rem;
+        font-weight: 800;
+        transition: .4s;
+    }
+    
+    .headings>button:hover{
+        background-color: #090d38;
+        box-shadow: 1px 1px 20px whitesmoke;
+    }
+}

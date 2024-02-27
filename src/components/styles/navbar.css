@@ -1,0 +1,385 @@
+/* Navbar.css big */
+@media (min-width:1080px){
+  
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  position: static;
+  color: #7d4597; 
+  transition: .4s;
+}
+
+.navbar.sticky {
+  position: sticky;
+  z-index: 100;
+  background-color: #120338;
+  height: max-content;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.logoContainer{
+  font-family: fantasy;
+  width: 50%;
+  font-size: 2rem;
+  font-weight: 500;
+  transition: .4s ease-in-out;
+  cursor: pointer;
+}
+
+.burger{
+  display: none;
+
+}
+
+.logoContainer>span:hover {
+  filter: drop-shadow(1px 1px 10px rgb(72, 66, 91));
+  color: white;
+}
+
+
+.rightSection {
+  font-weight: 800;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.navLinks li {
+  margin-right: 20px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color:#7d4597;
+  transition: .4s ease-in-out;
+}
+
+.navLinks a:hover{
+  color: #4d68ff;
+}
+
+.navConnect {
+  display: flex;
+}
+
+.Nicon {
+  margin-right: 10px;
+  font-size: 1.3rem; /* Adjust icon size as needed */
+  color: #4d68ff;
+  transition: .4s ease-in-out;
+  cursor: pointer;
+}
+
+.Nicon:first-child{
+  color: rgb(9, 61, 174);
+}
+
+.Nicon:hover{
+  color: #9d20bc;
+
+}
+
+
+
+}
+
+
+
+/* tab navbar */
+
+@media (min-width:761px) and (max-width:1079px) {
+
+  
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  color: #7d4597; 
+  transition: .4s;
+}
+.navbar.sticky {
+  position: sticky;
+  z-index: 100;
+  background-color: #120338;
+  height: max-content;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.logoContainer{
+  font-family: fantasy;
+  width: 50%;
+  font-size: 2rem;
+  font-weight: 500;
+  transition: .4s ease-in-out;
+  cursor: pointer;
+}
+
+.burger{
+  display: none;
+
+}
+
+.logoContainer>span:hover {
+  filter: drop-shadow(1px 1px 10px rgb(72, 66, 91));
+  color: white;
+}
+
+
+.rightSection {
+  font-weight: 800;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.navLinks li {
+  margin-right: 20px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color:#7d4597;
+  transition: .4s ease-in-out;
+}
+
+.navLinks a:hover{
+  color: #4d68ff;
+}
+
+.navConnect {
+  display: flex;
+}
+
+.Nicon {
+  margin-right: 10px;
+  font-size: 1.3rem; /* Adjust icon size as needed */
+  color: #4d68ff;
+  transition: .4s ease-in-out;
+  cursor: pointer;
+}
+
+.Nicon:first-child{
+  color: rgb(9, 61, 174);
+}
+
+.Nicon:hover{
+  color: #9d20bc;
+
+}
+
+}
+
+
+
+
+
+
+
+/* Navbar.css mobile */
+
+@media (min-width:320px) and (max-width:760px){
+  /* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  color: #7d4597; 
+  transition: .5s;
+ 
+}
+
+.navbar.sticky {
+  position: sticky;
+  z-index: 100;
+  background-color: #05042a;
+  height: max-content;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.logoContainer{
+  font-family: fantasy;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  font-size: 2rem;
+  font-weight: 500;
+  transition: .4s ease-in-out;
+  cursor: pointer;
+}
+
+.burger-menu {
+  cursor: pointer;
+  position: relative;
+  box-shadow: 2px 2px 10 whitesmoke;
+  height: max-content;
+  
+}
+
+.burger {
+  width: 20px;
+  background-color: #7d4597;
+  height: 3px;
+  border-radius: 5px;
+  right: 3rem;
+  top: 1rem;
+  position: absolute;
+  transition: transform 0.4s ease-in-out; /* Only transition the transform property for the central bar */
+}
+
+.burger::before,
+.burger::after {
+  content: '';
+  background-color: #7d4597;
+  width: 20px;
+  border-radius: 5px;
+  height: 3px;
+  position: absolute;
+  transition: .4s ease-in-out;
+}
+
+.burger::before {
+  transform: translateY(8px);
+}
+
+.burger::after {
+  transform: translateY(-8px);
+}
+
+.burger-menu.open > .burger {
+
+  background-color: transparent;
+}
+
+.burger-menu.open> .burger::before{
+  transform: rotate(45deg);
+}
+
+.burger-menu.open>.burger::after{
+  transform:rotate(-45deg);
+}
+
+
+.logoContainer>span:hover {
+  filter: drop-shadow(1px 1px 10px rgb(72, 66, 91));
+  color: white;
+}
+
+
+.rightSection {
+  font-weight: 800;
+  font-size: 1.5rem;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0rem;
+  transition: 2s ease-in;
+  height: 26.6rem;
+  transition: .5s;
+}
+
+.rightSection.rightSection2{
+  display: flex;
+}
+
+
+
+
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  
+}
+
+.navLinks li {
+  margin-right: 20px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color:#7d4597;
+  transition: .4s ease-in-out;
+}
+
+.navLinks a:hover{
+  color: #4d68ff;
+}
+
+.navConnect {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: -3rem;
+}
+
+.Nicon {
+  margin-right: 10px;
+  font-size: 2.3rem; /* Adjust icon size as needed */
+  color: #4d68ff;
+  transition: .4s ease-in-out;
+  cursor: pointer;
+  
+}
+
+.Nicon:first-child{
+  color: rgb(9, 61, 174);
+}
+
+.Nicon:hover{
+  color: #9d20bc;
+
+}
+
+
+
+}
+
+
+@keyframes navbars {
+  0%{
+    rotate: (180deg);
+  }
+  100%{
+    rotate: (100deg);
+  }
+}
